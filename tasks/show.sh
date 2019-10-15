@@ -8,7 +8,7 @@ RESOURCE_SECONDS=10
 RATE=50
 CURRENCY='¤'
 
-if [ -n $PT_daily_runs ]; then
+if [[ -n $PT_daily_runs ]]; then
   DAILY_RUNS=$PT_daily_runs
 fi
 if [[ -n $PT_resource_seconds ]]; then
