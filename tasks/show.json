@@ -1,7 +1,7 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "A short description of this task",
+  "description": "Show business data from PuppetDB",
   "parameters": {
     "daily_runs": {
       "description": "Average number of puppet runs per node per day across the infrastructure. (defaults to 48)",
