@@ -1,7 +1,7 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "Collect several metrics from PuppetDB for business analysis",
+  "description": "A short description of this task",
   "parameters": {
   }
 }
