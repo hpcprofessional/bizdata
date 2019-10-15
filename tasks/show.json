@@ -3,5 +3,21 @@
   "supports_noop": false,
   "description": "A short description of this task",
   "parameters": {
+    "daily_runs": {
+      "description": "Average number of puppet runs per node per day across the infrastructure. (defaults to 48)",
+      "type": "Optional[Integer]"
+    },
+    "resource_seconds": {
+      "description": "each managed resource saves this many seconds of labor. (defaults to 10)",
+      "type": "Optional[Integer]"
+    },
+    "rate": {
+      "description": "Average cost of labor, expressed as an integer per hour. (defaults to 50)",
+      "type": "Optional[Integer]"
+    },
+    "currency": {
+      "description": "Preferred currency. (e.g. $,£,€,JPY,INR,BRL - defaults to ¤)",
+      "type": "Optional[String[1]]"
+    }
   }
 }
